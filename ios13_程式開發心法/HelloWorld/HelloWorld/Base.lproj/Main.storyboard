@@ -52,14 +52,14 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EgJ-f6-odn"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="這是一個測試程式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guz-XJ-fTm">
-                                <rect key="frame" x="92.666666666666671" y="74" width="242.66666666666663" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="肇邦的Demo程式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guz-XJ-fTm">
+                                <rect key="frame" x="99.666666666666686" y="74" width="229" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DZO-FR-7W0">
-                                <rect key="frame" x="10" y="619.66666666666663" width="321.66666666666669" height="242.33333333333337"/>
+                                <rect key="frame" x="10" y="549.66666666666663" width="321.66666666666669" height="242.33333333333337"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="W9X-kz-fdh">
                                         <rect key="frame" x="0.0" y="0.0" width="321.66666666666669" height="63"/>
@@ -70,7 +70,7 @@
                                                 <color key="textColor" systemColor="systemIndigoColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get help from experts in 15 minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsH-4c-V7i">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get help from experts in 15 minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="WsH-4c-V7i">
                                                 <rect key="frame" x="6" y="39" width="310" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
@@ -92,7 +92,7 @@
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need help with coding problem? Register?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmZ-ZH-pGX">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need help with coding problem? Register?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="zmZ-ZH-pGX">
                                         <rect key="frame" x="0.0" y="222" width="321.66666666666669" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -100,12 +100,35 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pyR-fK-UUW">
+                                <rect key="frame" x="114" y="807" width="200" height="65"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fA-d9-i8K">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <state key="normal" title="Sign Up">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYs-lV-rXk">
+                                        <rect key="frame" x="0.0" y="35" width="200" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <state key="normal" title="Login Facebook">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Z6D-XM-dId"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
                             <constraint firstItem="RzE-e8-nRY" firstAttribute="trailing" secondItem="Ika-5o-3t7" secondAttribute="trailing" id="1NB-1f-GVJ"/>
                             <constraint firstItem="Ika-5o-3t7" firstAttribute="top" secondItem="guz-XJ-fTm" secondAttribute="bottom" constant="30" id="5H9-me-8ST"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pyR-fK-UUW" secondAttribute="bottom" constant="20" id="6H5-Bb-XH0"/>
                             <constraint firstItem="Ika-5o-3t7" firstAttribute="trailing" secondItem="guz-XJ-fTm" secondAttribute="centerX" id="7t8-5b-hRl"/>
                             <constraint firstItem="0p8-wU-1Fz" firstAttribute="centerX" secondItem="4MO-cB-vGH" secondAttribute="centerX" id="Aa7-wb-YrX"/>
                             <constraint firstItem="4MO-cB-vGH" firstAttribute="top" secondItem="Ika-5o-3t7" secondAttribute="top" id="Cyq-a7-eDz"/>
@@ -113,7 +136,8 @@
                             <constraint firstItem="RzE-e8-nRY" firstAttribute="top" secondItem="Ika-5o-3t7" secondAttribute="bottom" constant="-2" id="OdN-4b-7zU"/>
                             <constraint firstItem="0p8-wU-1Fz" firstAttribute="top" secondItem="4MO-cB-vGH" secondAttribute="bottom" constant="-2" id="PzU-aY-O5O"/>
                             <constraint firstItem="guz-XJ-fTm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ac7-y6-Whe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DZO-FR-7W0" secondAttribute="bottom" constant="30" id="haO-su-oWc"/>
+                            <constraint firstItem="pyR-fK-UUW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gkX-ak-Cl7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DZO-FR-7W0" secondAttribute="bottom" constant="100" id="haO-su-oWc"/>
                             <constraint firstItem="DZO-FR-7W0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ne1-gi-Dhw"/>
                             <constraint firstItem="guz-XJ-fTm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="pxb-Kr-Ycg"/>
                         </constraints>
